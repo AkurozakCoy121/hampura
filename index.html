@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMPURA | Official Download</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap');
+
+        body {
+            background-color: #0a0a0a;
+            color: #d1d1d1;
+            font-family: 'Special Elite', cursor;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background: radial-gradient(circle, #1a1a1a 0%, #000000 100%);
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        /* Efek Glitch buat Judul */
+        .title {
+            font-family: 'Nosifer', sans-serif;
+            font-size: 4rem;
+            color: #8b0000;
+            text-shadow: 3px 3px 5px #000;
+            margin-bottom: 10px;
+            letter-spacing: 5px;
+            animation: glitch 1s infinite;
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); text-shadow: 2px 0 red; }
+            60% { transform: translate(2px, 2px); text-shadow: -2px 0 blue; }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+
+        .description {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #888;
+            line-height: 1.6;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #4a0000;
+            color: #fff;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-size: 1.5rem;
+            border: 2px solid #8b0000;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(139, 0, 0, 0.5);
+        }
+
+        .download-btn:hover {
+            background-color: #8b0000;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+            transform: scale(1.05);
+        }
+
+        .info-section {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            color: #555;
+        }
+
+        .id-badge {
+            font-size: 0.8rem;
+            color: #444;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">HAMPURA</div>
+        <p class="description">
+            "Terbangun di lorong sunyi Rumah Sakit Jiwa yang terbengkalai. <br>
+            Jangan biarkan detak jantungmu berhenti sebelum kamu menemukan jalan keluar."
+        </p>
+
+        <a href="https://github.com/USERNAME-LO/REPO-LO/releases/download/v1.0/Hampura.zip" class="download-btn">
+            DOWNLOAD .EXE
+        </a>
+
+        <div class="info-section">
+            <p>Developer: <strong>Lukas Bobor</strong> (Project GRDMXG1)</p>
+            <p>Status: Early Access | Versi: 1.0</p>
+        </div>
+
+        <div class="id-badge">Project ID: GRDMXG1</div>
+    </div>
+
+</body>
+</html>
